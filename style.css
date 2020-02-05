@@ -1,0 +1,310 @@
+.hautdepage /* selecteur {
+                        propriété : valeur ;] */
+{
+    padding-top: 0px ;
+    padding-bottom: 80px;
+    font-family: Impact, sans-serif;
+    width: 100%;
+}
+
+
+h1{
+    font-size: 75px;
+    color: darkred;
+    text-align: center;
+}
+
+body
+{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-family: 'calibri';
+}
+
+main
+{
+    padding-bottom: 150px;
+
+    color: black;
+    background: white;
+}
+
+.premiertitre 
+{
+    text-align: center;
+     font-size: 40px;
+    color: darkred;
+     font-family: Impact, sans-serif;
+}
+
+.deuxiemetitre
+{
+    text-align: center;
+}
+
+h3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    color: white;
+}
+
+
+
+.boxpills {
+    background-color: black;
+
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    padding-right: 30px;
+float: right;
+margin-right: 100px;
+
+}
+.boxproto
+{
+    border: 4px solid;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    padding-right: 10px;
+    margin-left: 100px;
+}
+
+.proto1
+{display: block;
+    margin: auto;
+    border-radius: 0%;
+    width: 50%;}
+
+
+
+.numero1
+{
+    background:black;
+    color:white ;
+    padding-bottom: 200px;
+    padding-top: 60px;
+}
+
+
+.pageMVP
+{
+    background: white;
+    color: black ;
+    padding-bottom: 500px;
+    padding-top: 10px; 
+}
+
+.titreMVP
+{ text-align: center;
+    font-size: 40px;
+    color: darkred;
+     font-family: Impact, sans-serif;
+}
+
+.boxtexteMVP
+{
+    background:white;
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    padding-right: 30px;
+float: left;
+margin-left: 40px;}
+
+.boximagesMVP
+{background:white;
+    width: 650px;
+    height: 400px;
+    padding: 20px;
+    padding-right: 30px;
+float: right;
+}
+
+.imageMVP1
+{   border-radius: 0%;
+    float: left;
+    width: 25%;  
+}
+.imageMVP2
+{
+    display: block;
+    float: left;
+    position: top;
+    border-radius: 0%;
+    width: 25%;    
+}
+
+.imageMVP3
+{   display: block;
+    float: left;
+    position: top;
+    border-radius: 0%;
+    width: 25%;   
+}
+.imageMVP4
+{
+    width: 25% ;
+    display: block ;
+    margin: auto;
+    float: center;
+    border-radius: 0%;   
+}
+  
+
+.persona
+{
+     background: black ;
+    color: white ;
+    padding-bottom: 200px;
+    padding-top: 20px;  
+}
+
+.titrepersona
+{
+    text-align: center;
+     padding-bottom: 60px;
+    padding-top: 5px;
+    font-size: 40px;
+    color: darkred;
+     font-family: Impact, sans-serif;
+}
+
+.boxtextepersona
+{
+    background-color: black;
+
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    padding-right: 30px;
+float: right;
+margin-right: 30px;
+}
+
+.boximagepersona
+{
+    border: 4px solid;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    padding-right: 10px;
+    margin: 60px;
+}
+
+.imagepersona 
+{
+     width: 100% ;
+   
+    border-radius: 0%; 
+}
+
+
+
+.pageateliersdideation
+{
+    padding-bottom: 500px;
+    padding-top: 50px;
+    background: white;
+    align-content: flex-start;
+        
+}
+img
+{
+    width: 25% ;
+    display: block ;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+.ateliersdideation
+{
+     text-align: center;
+     padding-bottom: 60px;
+    padding-top: 5px;
+    font-size: 40px;
+    color: darkred;
+     font-family: Impact, sans-serif;
+}
+.boxtexteateliers {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    padding-right: 30px;
+float: left;
+margin-left: 60px;}
+
+
+.boximagesateliers
+ {  
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    padding-right: 10px;
+float: right;
+margin-right: 100px;
+}
+
+
+.atelier1 {
+    display: block;
+    float: right;
+    position: top;
+    border-radius: 0%;
+    width: 50%;
+    margin-top: 10px;
+    
+     }
+
+.atelier2 { display: block;
+            border-radius: 0%;
+        width:50%; 
+    margin-top: 10px;}
+
+
+.atelier3 {border-radius: 0%;
+    display: block;
+width: 50%;
+margin-top: 10px;
+float: left;}
+
+.atelier4 {border-radius: 0%;
+    display: block;
+width: 50%;
+margin-top: 10px;}
+
+.atelier5 {border-radius: 0%;
+    display: block;
+width: 50%;
+margin-top: 10px;
+float: left;}
+
+.atelier6 {border-radius: 0%;
+    display: block;
+width: 50%;
+margin-top: 10px;}
+
+
+.boxfooter
+{background:white;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    padding-right: 30px;
+float: center;
+ border: 4px solid;
+ }
+
