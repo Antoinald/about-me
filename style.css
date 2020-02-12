@@ -7,9 +7,18 @@
     width: 100%;
 }
 
+img
+{
+    width: 25% ;
+    display: block ;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
 
 h1{
-    font-size: 75px;
+    font-size: 65px;
     color: darkred;
     text-align: center;
 }
@@ -24,22 +33,21 @@ body
 main
 {
     padding-bottom: 150px;
-
     color: black;
     background: white;
 }
 
 .premiertitre 
 {
-    text-align: center;
+     text-align: center;
      font-size: 40px;
-    color: darkred;
+     color:white;
      font-family: Impact, sans-serif;
 }
 
 .deuxiemetitre
 {
-    text-align: center;
+     text-align: center;
 }
 
 h3
@@ -50,40 +58,57 @@ h3
 }
 
 
-
+.prototypage
+{
+     text-align: center;
+     font-size: 40px;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     padding-bottom: 0px;
+}
 .boxpills {
-    background-color: black;
+    background-color:#014153;
 
     width: 500px;
-    height: 500px;
+    height: 300px;
     padding: 20px;
     padding-right: 30px;
 float: right;
 margin-right: 100px;
+font-family: 'Montserrat', sans-serif;
+ box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
+ padding-top: 50px;
+ margin-top: 60px;
 
 }
 .boxproto
 {
-    border: 4px solid;
-    background-color: white;
+
+    background-color:#014153;
     width: 300px;
     height: 300px;
     padding: 20px;
     padding-right: 10px;
     margin-left: 100px;
+    margin-top: 50px;
 }
+
+
 
 .proto1
 {display: block;
     margin: auto;
-    border-radius: 0%;
-    width: 50%;}
+    /* border-radius: 0%; */
+    width: 70%;
+    border-radius: 0px;
+
+}
 
 
 
 .numero1
 {
-    background:black;
+    background: #014153;
     color:white ;
     padding-bottom: 200px;
     padding-top: 60px;
@@ -94,7 +119,7 @@ margin-right: 100px;
 {
     background: white;
     color: black ;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
     padding-top: 10px; 
 }
 
@@ -102,7 +127,8 @@ margin-right: 100px;
 { text-align: center;
     font-size: 40px;
     color: darkred;
-     font-family: Impact, sans-serif;
+     font-family: 'Montserrat', sans-serif;
+     padding-top: 50px;
 }
 
 .boxtexteMVP
@@ -111,9 +137,12 @@ margin-right: 100px;
     width: 450px;
     height: 300px;
     padding: 20px;
-    padding-right: 30px;
+    padding-right: 0px;
 float: left;
-margin-left: 40px;}
+margin-left: 40px;
+font-family: 'Montserrat', sans-serif;
+padding-top: 70px;
+}
 
 .boximagesMVP
 {background:white;
@@ -122,12 +151,15 @@ margin-left: 40px;}
     padding: 20px;
     padding-right: 30px;
 float: right;
+padding-top: 70px;
 }
 
 .imageMVP1
 {   border-radius: 0%;
     float: left;
-    width: 25%;  
+    width: 150px; 
+    margin-right: 10px;
+     box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
 }
 .imageMVP2
 {
@@ -135,7 +167,9 @@ float: right;
     float: left;
     position: top;
     border-radius: 0%;
-    width: 25%;    
+    width: 150px;
+    margin-right: 10px;
+     box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);   
 }
 
 .imageMVP3
@@ -143,24 +177,31 @@ float: right;
     float: left;
     position: top;
     border-radius: 0%;
-    width: 25%;   
+    width: 150px; 
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
+      
 }
 .imageMVP4
 {
-    width: 25% ;
+    width: 150px ;
     display: block ;
-    margin: auto;
-    float: center;
-    border-radius: 0%;   
-}
+    border-radius: 0%;  
+    margin-right: 10px; 
+    margin-left: 0;
+     box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4); 
+
+    }
   
 
 .persona
 {
-     background: black ;
+     background:#014153 ;
     color: white ;
-    padding-bottom: 200px;
+    padding-bottom: 600px;
     padding-top: 20px;  
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .titrepersona
@@ -169,13 +210,14 @@ float: right;
      padding-bottom: 60px;
     padding-top: 5px;
     font-size: 40px;
-    color: darkred;
-     font-family: Impact, sans-serif;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
 }
 
 .boxtextepersona
 {
-    background-color: black;
+    background-color: #014153;
 
     width: 450px;
     height: 300px;
@@ -183,17 +225,23 @@ float: right;
     padding-right: 30px;
 float: right;
 margin-right: 30px;
+box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
+margin-top: 70px;
+padding-top: 40px;
+text-align: justify;
 }
 
 .boximagepersona
 {
     border: 4px solid;
     background-color: white;
-    width: 600px;
+    width: 550px;
     height: 400px;
     padding: 20px;
     padding-right: 10px;
     margin: 60px;
+    box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
+   
 }
 
 .imagepersona 
@@ -207,26 +255,13 @@ margin-right: 30px;
 
 .pageateliersdideation
 {
-    padding-bottom: 500px;
+    padding-bottom: 200px;
     padding-top: 50px;
     background: white;
-    align-content: flex-start;
+    align-content: space-around;
+    display: flex;
         
 }
-img
-{
-    width: 25% ;
-    display: block ;
-    margin: auto;
-    border-radius: 50%;
-
-}
-
-
-
-
-
-
 
 .ateliersdideation
 {
@@ -235,8 +270,11 @@ img
     padding-top: 5px;
     font-size: 40px;
     color: darkred;
-     font-family: Impact, sans-serif;
-}
+     font-family: 'Montserrat', sans-serif;
+     padding-top: 50px;
+     }
+
+
 .boxtexteateliers {
     background-color: white;
     width: 500px;
@@ -244,67 +282,84 @@ img
     padding: 20px;
     padding-right: 30px;
 float: left;
-margin-left: 60px;}
+margin-left: 60px;
+font-family: 'Montserrat', sans-serif;}
 
 
-.boximagesateliers
- {  
-    background-color: white;
+.boximageatelier
+ {  background-color: white;
     width: 400px;
-    height: 400px;
+    height: 200px;
     padding: 20px;
     padding-right: 10px;
 float: right;
-margin-right: 100px;
+margin-right: 0px;
+}
+
+.imageatelier 
+{
+    width: 100%;
+    padding: 0%;
+    border-radius: 0%;
 }
 
 
-.atelier1 {
-    display: block;
-    float: right;
-    position: top;
-    border-radius: 0%;
-    width: 50%;
-    margin-top: 10px;
-    
-     }
-
-.atelier2 { display: block;
-            border-radius: 0%;
-        width:50%; 
-    margin-top: 10px;}
 
 
-.atelier3 {border-radius: 0%;
-    display: block;
-width: 50%;
-margin-top: 10px;
-float: left;}
 
-.atelier4 {border-radius: 0%;
-    display: block;
-width: 50%;
-margin-top: 10px;}
+/* Page loisirs */
 
-.atelier5 {border-radius: 0%;
-    display: block;
-width: 50%;
-margin-top: 10px;
-float: left;}
+.pagenz
+{
+      padding-bottom: 500px;
+    padding-top: 50px;
+    background:#FFCA73;
+    align-content: flex-start;
+}
+.titrenz
+{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    font-size: 40px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
 
-.atelier6 {border-radius: 0%;
-    display: block;
-width: 50%;
-margin-top: 10px;}
+.photoNZ1
+{
+     width: 50% ;
+   
+    border-radius: 50%; 
+    box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4)
+}
+
+.boxtexteNZ
+{
+    text-align: center;
+    color: white;
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ 
+/* ------------------- footer --------------------*/
 
 
 .boxfooter
-{background:white;
-    width: 200px;
+{background:#014153;
+    color: white;
+    width: 500px;
     height: 100px;
     padding: 20px;
     padding-right: 30px;
-float: center;
  border: 4px solid;
  }
 
