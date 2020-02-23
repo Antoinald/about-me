@@ -4,7 +4,9 @@
     padding-top: 0px ;
     padding-bottom: 80px;
     font-family: Impact, sans-serif;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 img
@@ -12,14 +14,17 @@ img
     width: 25% ;
     display: block ;
     margin: auto;
-    border-radius: 50%;
 
+}
+
+.photoaccueil{
+    border-radius: 50%;
 }
 
 
 h1{
     font-size: 65px;
-    color: darkred;
+    color: #393937;
     text-align: center;
 }
 
@@ -37,18 +42,50 @@ main
     background: white;
 }
 
-.premiertitre 
+
+.pageliens
 {
-     text-align: center;
-     font-size: 40px;
-     color:white;
-     font-family: Impact, sans-serif;
+    height: 200px; 
+    width: 100%; 
+    background-color:white;
 }
 
-.deuxiemetitre
+.linkedin
 {
-     text-align: center;
+    margin-top: 10px; 
+    margin-left: 460px; 
+    margin-bottom: 20px; 
+    float: left;
+    width: 5.5%;
 }
+
+.instagram
+{
+    margin-top: 10px; 
+    margin-left: 50px; 
+    margin-bottom: 20px; 
+    float: left;
+    width: 6%;
+}
+.mail
+{
+    margin-top: 10px; 
+    margin-left: 50px; 
+    margin-bottom: 20px; 
+    float: left;
+    width: 6%;
+
+}
+
+.rubriques
+{
+    height: 200px; 
+    width: 100%; 
+    background-color:white;
+}
+
+
+ /* ---------------------------------------------- Page PILLS ------------------------------*/
 
 h3
 {
@@ -58,249 +95,318 @@ h3
 }
 
 
-.prototypage
+.pageprototype
+{  
+    height: 550px; 
+    width: 100%; 
+    background-color:#014153;
+    
+    
+   
+}
+
+.titreprototypage
 {
      text-align: center;
      font-size: 40px;
-     color: white;
+     color:#393937;
      font-family: 'Montserrat', sans-serif;
-     padding-bottom: 0px;
+     padding-top:50px;
 }
-.boxpills {
-    background-color:#014153;
 
-    width: 500px;
-    height: 300px;
-    padding: 20px;
+
+.boxtextepills {
+    text-align : left; 
+    float: left; 
+    width: 45%; 
+    background-color: #F6F5F3; 
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    
+    
+
+}
+
+.texte 
+{color: #616161;
+    padding-left: 30px;
     padding-right: 30px;
-float: right;
-margin-right: 100px;
-font-family: 'Montserrat', sans-serif;
- box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
- padding-top: 50px;
- margin-top: 60px;
-
-}
-.boxproto
-{
-
-    background-color:#014153;
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    padding-right: 10px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-
-
-.proto1
-{display: block;
-    margin: auto;
-    /* border-radius: 0%; */
-    width: 70%;
-    border-radius: 0px;
-
-}
-
-
-
-.numero1
-{
-    background: #014153;
-    color:white ;
-    padding-bottom: 200px;
     padding-top: 60px;
 }
 
+.boximagepills
+{ text-align : right; 
+  float: left; 
+  width: 45%; 
+  background-color:white; 
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  box-shadow: rgba(1,1, 1, );
+}
+
+
+.lienpills
+{
+    margin-bottom: 5px; 
+    float: left;
+}
+
+.figma
+{
+    margin-left: 2px;
+    margin-bottom: 2px;
+    width: 10%;
+}
+.proto1
+{margin-top: 30px; 
+    margin-left: 50px; 
+    margin-bottom: 20px; 
+    float: left;
+    width: 21%;
+}
+.proto2
+{
+    margin-top: 30px; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+    float: left;
+    width: 22%;
+}
+ .proto3
+ {
+     margin-top: 30px; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+    float: left;
+    width: 22%;
+ }
+
+ 
+/* -------------------------------------------- Page MVP ---------------------------------------------*/
 
 .pageMVP
 {
-    background: white;
-    color: black ;
-    padding-bottom: 600px;
-    padding-top: 10px; 
+    height: 550px; 
+    width: 100%; 
+    background-color: #014153;
 }
 
 .titreMVP
 { text-align: center;
     font-size: 40px;
-    color: darkred;
+    color:#F6F5F3;
      font-family: 'Montserrat', sans-serif;
      padding-top: 50px;
 }
 
 .boxtexteMVP
 {
-    background:white;
-    width: 450px;
-    height: 300px;
-    padding: 20px;
-    padding-right: 0px;
-float: left;
-margin-left: 40px;
-font-family: 'Montserrat', sans-serif;
-padding-top: 70px;
+   text-align : left; 
+  float: right; 
+  width: 45%; 
+   
+  margin-right: 5%;
+  background-color: #272727; 
+  height: 100%;
+  
 }
 
-.boximagesMVP
-{background:white;
-    width: 650px;
-    height: 400px;
-    padding: 20px;
+.textemvp 
+{
+    color: #F6F5F3;
+    padding-left: 30px;
+    padding-top: 35px;
     padding-right: 30px;
-float: right;
-padding-top: 70px;
+}
+
+
+.boximagesMVP
+{text-align : right; 
+  float: right; 
+  width: 45%; 
+  margin-left: 5%;
+  background-color:white; 
+  height: 100%;
+  
+
 }
 
 .imageMVP1
-{   border-radius: 0%;
-    float: left;
-    width: 150px; 
-    margin-right: 10px;
+{  
      box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
+     margin-top: 200px; 
+    margin-left: 25px; 
+    margin-bottom: 20px; 
+    width: 20%;
+    float: left;
 }
 .imageMVP2
 {
-    display: block;
-    float: left;
-    position: top;
-    border-radius: 0%;
-    width: 150px;
-    margin-right: 10px;
-     box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);   
+    box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
+     margin-top: 200px; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+    width: 20%;
+    float: left;  
 }
 
 .imageMVP3
-{   display: block;
+{  box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
+    width: 20%;
+     margin-top: 200px; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
     float: left;
-    position: top;
-    border-radius: 0%;
-    width: 150px; 
-    margin-right: 10px;
-    box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
-      
 }
 .imageMVP4
 {
-    width: 150px ;
-    display: block ;
-    border-radius: 0%;  
-    margin-right: 10px; 
-    margin-left: 0;
-     box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4); 
+     box-shadow: 2px 2px 2px 2px rgba(0,0, 0, 0.4);
+     margin-top: 200px; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+    width: 20%;
+    float: left;
 
     }
   
 
-.persona
+    /* --------------------------------------------- Persona -----------------------------------------*/
+
+
+.pagepersona
 {
-     background:#014153 ;
-    color: white ;
-    padding-bottom: 600px;
-    padding-top: 20px;  
-    font-family: 'Montserrat', sans-serif;
-    
+   height: 550px; 
+    width: 100%; 
+    background-color:#014153;
 }
+
+    
+
 
 .titrepersona
 {
-    text-align: center;
-     padding-bottom: 60px;
-    padding-top: 5px;
+   text-align: center;
     font-size: 40px;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 50px;
+    color:#393937;
+     font-family: 'Montserrat', sans-serif;
+     padding-top: 50px;
 }
 
 .boxtextepersona
 {
-    background-color: #014153;
-
-    width: 450px;
-    height: 300px;
-    padding: 20px;
-    padding-right: 30px;
-float: right;
-margin-right: 30px;
-box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
-margin-top: 70px;
-padding-top: 40px;
-text-align: justify;
+   text-align : left; 
+  float: left; 
+  width: 45%; 
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-color: #F6F5F3; 
+  height: 100%;
+   
 }
 
+.textepersona 
+{
+    color:#616161;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
 .boximagepersona
 {
-    border: 4px solid;
+    /*border: 4px solid;
     background-color: white;
     width: 550px;
     height: 400px;
     padding: 20px;
     padding-right: 10px;
     margin: 60px;
-    box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
+    box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);*/
+  text-align : left; 
+  float: left; 
+  width: 45%; 
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+  
+  background-color: white; 
+  height: 100%;
    
 }
 
 .imagepersona 
 {
-     width: 100% ;
-   
-    border-radius: 0%; 
+     width: 90% ;
+margin-top: 100px;   
+margin-left: 25px; 
+    box-shadow: 2px 2px 10px 10px rgba(0,0, 0, 0.4);
 }
+
+
+/* ------------------------------------------ page ateliers ----------------------------------------*/
 
 
 
 .pageateliersdideation
 {
-    padding-bottom: 200px;
-    padding-top: 50px;
-    background: white;
-    align-content: space-around;
-    display: flex;
+    height: 550px; 
+    width: 100%; 
+    background-color:#014153;
         
 }
 
-.ateliersdideation
+.titreateliers
 {
-     text-align: center;
-     padding-bottom: 60px;
-    padding-top: 5px;
+    text-align: center;
     font-size: 40px;
-    color: darkred;
-     font-family: 'Montserrat', sans-serif;
+    color:#F6F5F3;
+     font-family: 'Montserrat', sans-serif ; 
      padding-top: 50px;
      }
 
 
-.boxtexteateliers {
-    background-color: white;
-    width: 500px;
-    height: 400px;
-    padding: 20px;
-    padding-right: 30px;
-float: left;
-margin-left: 60px;
-font-family: 'Montserrat', sans-serif;}
+.boxtexteateliers 
+{
+ text-align : left; 
+  float: right; 
+  width: 45%; 
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color:#272727; 
+  height: 100%;
+  margin-top: 20px;
+ }
 
+.texteateliers 
+{
+    color: #F6F5F3;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-right: 50px;
+    
+}
 
 .boximageatelier
- {  background-color: white;
-    width: 400px;
-    height: 200px;
-    padding: 20px;
-    padding-right: 10px;
-float: right;
-margin-right: 0px;
+ {  text-align : left; 
+  float: right; 
+  width: 45%; 
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: white; 
+  height: 100%;
+  margin-top: 20px;
 }
 
 .imageatelier 
 {
-    width: 100%;
-    padding: 0%;
-    border-radius: 0%;
+    width: 80%;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
 }
 
 
@@ -340,26 +446,7 @@ margin-right: 0px;
     color: white;
 }
 
-#conteneur
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
 
  
 /* ------------------- footer --------------------*/
-
-
-.boxfooter
-{background:#014153;
-    color: white;
-    width: 500px;
-    height: 100px;
-    padding: 20px;
-    padding-right: 30px;
- border: 4px solid;
- }
 
