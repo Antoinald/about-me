@@ -107,7 +107,7 @@ h3 {
   color: #616161;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .boximagepills {
@@ -122,17 +122,17 @@ h3 {
 }
 
 .proto1 {
-  margin: 150px 20px 150px 60px;
+  margin: 150px 5px 150px 40px;
   float: left;
   width: 21%;
 }
 .proto2 {
-  margin: 150px 20px 150px 20px;
+  margin: 150px 5px 150px 20px;
   float: left;
   width: 22%;
 }
 .proto3 {
-  margin: 150px 20px 150px 20px;
+  margin: 150px 5px 150px 20px;
   float: left;
   width: 22%;
 }
@@ -165,7 +165,7 @@ h3 {
 .textemvp {
   color: #f6f5f3;
   padding-left: 30px;
-  padding-top: 35px;
+  padding-top: 10 px;
   padding-right: 30px;
 }
 
@@ -180,13 +180,13 @@ h3 {
 
 .imageMVP1 {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
-  margin: 150px 10px 150px 20px;
+  margin: 150px 5px 150px 20px;
   width: 20%;
   float: left;
 }
 .imageMVP2 {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
-  margin: 150px 10px 150px 10px;
+  margin: 150px 5px 150px 10px;
   width: 20%;
   float: left;
 }
@@ -194,12 +194,12 @@ h3 {
 .imageMVP3 {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
   width: 20%;
-  margin: 150px 10px 150px 10px;
+  margin: 150px 5px 150px 10px;
   float: left;
 }
 .imageMVP4 {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
-  margin: 150px 10px 150px 10px;
+  margin: 150px 5px 150px 10px;
   width: 20%;
   float: left;
 }
@@ -233,7 +233,7 @@ h3 {
 .textepersona {
   color: #616161;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-right: 50px;
 }
 .boximagepersona {
@@ -280,7 +280,7 @@ h3 {
 .texteateliers {
   color: #f6f5f3;
   padding-left: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-right: 50px;
 }
 
